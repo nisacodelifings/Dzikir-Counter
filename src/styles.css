@@ -1,0 +1,20 @@
+body {
+  background: #0a0a23;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.klikan {
+  width: 232px;
+  height: 231px;
+  border-radius: 36% 64% 32% 68% / 79% 28% 72% 21%;
+  background: darkcyan;
+}
+.link-awesome {
+  border-bottom: 2px solid cyan;
+}
+.link-awesome:hover {
+  background: cyan;
+  color: #0a0a23;
+}
