@@ -3,7 +3,7 @@ import React from "react";
 export default function Main() {
   const [klik, setKlik] = React.useState(0);
   return (
-    <div className="klikan px-8 pt-8 m-12">
+    <div className="klikan px-8 pt-8 ml-5">
       <main className="text-6xl text-blue-200 ml-24">{klik}</main>
      <div className="ml-16">
      <button
