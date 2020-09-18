@@ -1,2 +1,2 @@
 # Dzikir-Counter-App
-Created with CodeSandbox
+using React
