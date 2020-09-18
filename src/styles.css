@@ -1,20 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap");
 body {
   background: #0a0a23;
+  font-family: "Roboto Mono", monospace;
 }
 .App {
   font-family: sans-serif;
-  text-align: center;
+  overflow: hidden;
 }
 .klikan {
-  width: 232px;
-  height: 231px;
+  width: 332px;
+  height: 331px;
   border-radius: 36% 64% 32% 68% / 79% 28% 72% 21%;
   background: darkcyan;
+  border: 5px solid #0a0a23;
 }
 .link-awesome {
   border-bottom: 2px solid cyan;
+  padding: 2px;
+  font-weight: bolder;
 }
 .link-awesome:hover {
-  background: cyan;
+  background: darkcyan;
   color: #0a0a23;
 }

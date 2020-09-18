@@ -6,15 +6,15 @@ import Main from "./Main.js";
 export default function App() {
   return (
     <div className="App">
-      <div class="mt-5 mb-16">
-        <h1 class="text-4xl text-blue-500">Dzikir Counter</h1>
+      <div class="mt-6 mb-16 m-20">
+        <h1 class="text-4xl text-blue-500 font-black">Dzikir Counter</h1>
         <h2 class="text-blue-200">
-          Online Web Application by{" "}
+         for Mobile user Only by{" "}
           <a
             class="no-underline link-awesome"
             href="https://nisacodelifings.netlify.com"
           >
-            nisa
+            Nisa
           </a>{" "}
         </h2>
       </div>
