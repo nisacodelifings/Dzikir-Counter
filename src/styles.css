@@ -5,7 +5,8 @@ body {
 }
 .App {
   font-family: sans-serif;
-  overflow: hidden;
+  display: flex;
+  flex-direction: center;
 }
 .klikan {
   width: 332px;
