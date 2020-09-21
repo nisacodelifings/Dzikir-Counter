@@ -8,9 +8,11 @@ export default function App() {
       <div class="header">
         {" "}
         <h1>Penghitung Dzikiran</h1>{" "}
-        <p>
-          Aplikasi Praktis Tanpa harus Download di
-          penghitung-dzikiran.netlify.com
+        {" "}
+        <p>Made with &hearts;
+          by{" "}
+          <a href="https://nisacodelifings.netlify.com/">Annisa Puspitasari</a>{" "}
+          using HTML5, CSS3, React & Netlify
         </p>{" "}
       </div>{" "}
       <div class="container">
@@ -25,14 +27,6 @@ export default function App() {
             <button onClick={() => setKlik(klik * 0)}>Ulang</button>
           </div>
         </div>
-      </div>{" "}
-      <div class="footer">
-        {" "}
-        <p>Made with &hearts;
-          by{" "}
-          <a href="https://nisacodelifings.netlify.com/">Annisa Puspitasari</a>{" "}
-          using HTML5, CSS3, React & Netlify
-        </p>{" "}
       </div>{" "}
     </main>
   );
