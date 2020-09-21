@@ -8,7 +8,10 @@ export default function App() {
       <div class="header">
         {" "}
         <h1>Penghitung Dzikiran</h1>{" "}
-        <p>Aplikasi Praktis Tanpa harus Download</p>{" "}
+        <p>
+          Aplikasi Praktis Tanpa harus Download di
+          penghitung-dzikiran.netlify.com
+        </p>{" "}
       </div>{" "}
       <div class="container">
         {" "}
@@ -25,9 +28,10 @@ export default function App() {
       </div>{" "}
       <div class="footer">
         {" "}
-        <p>
+        <p>Made with &hearts;
           by{" "}
-          <a href="https://nisacodelifings.netlify.com/">Annisa Puspitasari</a> built with HTML5, CSS3, React & Netlify
+          <a href="https://nisacodelifings.netlify.com/">Annisa Puspitasari</a>{" "}
+          using HTML5, CSS3, React & Netlify
         </p>{" "}
       </div>{" "}
     </main>
