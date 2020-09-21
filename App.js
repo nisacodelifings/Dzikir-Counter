@@ -7,23 +7,27 @@ export default function App() {
       {" "}
       <div class="header">
         {" "}
-        <h1>Dzikir Counter</h1>{" "}
-        <p>A FREE, Simple and Progressive Web App for Dzikrullah</p>{" "}
+        <h1>Penghitung Dzikiran</h1>{" "}
+        <p>Aplikasi Praktis Tanpa harus Download</p>{" "}
       </div>{" "}
       <div class="container">
         {" "}
         <div class="home">{klik}</div>{" "}
         <div class="aksi">
-          <button class="hitung" onClick={() => setKlik(klik + 1)}>Hitung</button>{" "}
-          <button onClick={() => setKlik(klik - 1)}>Salah</button>{" "}
-          <button onClick={() => setKlik(klik * 0)}>Ulang</button>
+          <button class="myButton" onClick={() => setKlik(klik + 1)}>
+            Hitung
+          </button>
+          <div class="lain">
+            <button onClick={() => setKlik(klik - 1)}>Salah</button>{" "}
+            <button onClick={() => setKlik(klik * 0)}>Ulang</button>
+          </div>
         </div>
       </div>{" "}
       <div class="footer">
         {" "}
         <p>
           by{" "}
-          <a href="https://nisacodelifings.netlify.com/">Annisa Puspitasari</a>
+          <a href="https://nisacodelifings.netlify.com/">Annisa Puspitasari</a> built with HTML5, CSS3, React & Netlify
         </p>{" "}
       </div>{" "}
     </main>
