@@ -9,10 +9,9 @@ export default function App() {
         {" "}
         <h1>Penghitung Dzikiran</h1>{" "}
         {" "}
-        <p>Made with &hearts;
-          by{" "}
+        <p>A Free and Progressive Web App Made with &hearts; by{" "}
           <a href="https://nisacodelifings.netlify.com/">Annisa Puspitasari</a>{" "}
-          using HTML5, CSS3, React & Netlify
+          using HTML5, CSS3, & React 
         </p>{" "}
       </div>{" "}
       <div class="container">
@@ -27,6 +26,11 @@ export default function App() {
             <button onClick={() => setKlik(klik * 0)}>Ulang</button>
           </div>
         </div>
+      </div>{" "}
+
+      <div class="footer">
+        {" "}
+        <h2>Thanks for using This App</h2>{" "}
       </div>{" "}
     </main>
   );
