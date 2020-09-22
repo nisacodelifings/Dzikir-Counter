@@ -1,6 +1,8 @@
 import React from "react";
 import "./styles.css";
+
 export default function App() {
+ 
   const [klik, setKlik] = React.useState(0);
   return (
     <main>
@@ -8,10 +10,10 @@ export default function App() {
       <div class="header">
         {" "}
         <h1>Penghitung Dzikiran</h1>{" "}
-        {" "}
-        <p>A Free and Progressive Web App Made with &hearts; by{" "}
+        <p>
+          A Free and Progressive Web App Made with &hearts; by{" "}
           <a href="https://nisacodelifings.netlify.com/">Annisa Puspitasari</a>{" "}
-          using HTML5, CSS3, & React 
+          using HTML5, CSS3, & React
         </p>{" "}
       </div>{" "}
       <div class="container">
@@ -27,12 +29,12 @@ export default function App() {
           </div>
         </div>
       </div>{" "}
-
       <div class="footer">
         {" "}
-        <h2>Thanks for Using!</h2>{" "}
-        <p>dibuat di Bandung, Indonesia</p>
-        <p>Feedback ke ig <a href="https://instagram.com/nscdlgg">@nscdlgg</a></p>
+        <h2>Thanks for Using!</h2> <p>dibuat di Bandung, Indonesia</p>
+        <p>
+          Feedback ke ig <a href="https://instagram.com/nscdlgg">@nscdlgg</a>
+        </p>
       </div>{" "}
     </main>
   );
