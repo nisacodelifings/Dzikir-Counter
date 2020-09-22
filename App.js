@@ -30,7 +30,9 @@ export default function App() {
 
       <div class="footer">
         {" "}
-        <h2>Thanks for using This App</h2>{" "}
+        <h2>Thanks for Using!</h2>{" "}
+        <p>dibuat di Bandung, Indonesia</p>
+        <p>Feedback ke ig <a href="https://instagram.com/nscdlgg">@nscdlgg</a></p>
       </div>{" "}
     </main>
   );
