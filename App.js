@@ -33,7 +33,7 @@ export default function App() {
         {" "}
         <h2>Thanks for Using!</h2> <p>dibuat di Bandung, Indonesia</p>
         <p>
-          Feedback ke ig <a href="https://instagram.com/nscdlgg">@nscdlgg</a>
+          Feedback ke ig <a href="https://instagram.com/nisacodelifings">@nisacodelifings</a>
         </p>
       </div>{" "}
     </main>
