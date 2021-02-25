@@ -9,11 +9,10 @@ export default function App() {
       {" "}
       <div class="header">
         {" "}
-        <h1>Penghitung Dzikiran</h1>{" "}
+        <h1>Dzikir Counter</h1>{" "}
         <p>
-          A Free and Progressive Web App Made with &hearts; by{" "}
-          <a href="https://nisacodelifings.netlify.com/">Annisa Puspitasari</a>{" "}
-          using HTML5, CSS3, & React
+           Made with &hearts; by{" "}
+          <a href="https://instagram.com/annisa_pussa">Annisa Puspitasari</a>{" "}
         </p>{" "}
       </div>{" "}
       <div class="container">
@@ -28,13 +27,6 @@ export default function App() {
             <button onClick={() => setKlik(klik * 0)}>Ulang</button>
           </div>
         </div>
-      </div>{" "}
-      <div class="footer">
-        {" "}
-        <h2>Thanks for Using!</h2> <p>dibuat di Bandung, Indonesia</p>
-        <p>
-          Feedback ke ig <a href="https://instagram.com/nisacodelifings">@nisacodelifings</a>
-        </p>
       </div>{" "}
     </main>
   );
